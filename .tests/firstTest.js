@@ -6,7 +6,7 @@ async function example() {
     await driver.get("https://lambdatest.github.io/sample-todo-app/");
 
     await driver.findElement(By.id("sampletodotext")).sendKeys("Learn Selenium", Key.RETURN);
-    await driver.findElement(By.id("sampletodotext")).sendKeys("Practise Selenium", Key.RETURN);
+    await driver.findElement(By.id("sampletodotext")).sendKeys("Practise javascript", Key.RETURN);
 
     await driver.quit();
 
